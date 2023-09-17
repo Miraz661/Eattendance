@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shortcut icon" href="../images/fav-logo.png" type="image/x-icon">
+    <script defer src="../JS/login.js"></script>
+</head>
+<body id="body">
+    <div class="preloader">
+        <img src="../images/fav-logo.png" alt="UU logo" class="preImg">
+    </div>
+    <section id="login">
+        <form class="login" action="#">
+            <div class="loginHead">
+                <img class="loginLogo" src="../images/logo2.png" alt="UU logo">
+                <div class="loginTitle">E-Attendance</div>
+            </div>
+            <div class="LoginContent">
+                <div class="mail">
+                    <label for="email">Email/ID: </label>
+                    <input type="text" id="email" placeholder="Enter your email" required autocomplete="off">
+                </div>
+                <div class="pass">
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                    <div class="forgotP">Forgot your password? <a href="https://www.google.com">Click here</a></div>
+                </div>
+                <input type="submit" value="Login" id="loginBtn">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
